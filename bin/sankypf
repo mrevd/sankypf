@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'sanky/pathfinder/runner'
+Sanky::PathFinder::Runner.new(ARGV).run
