@@ -2,8 +2,8 @@
 
 Installation is simple:
 
-`gem install sankypf`
+`gem install sanky-pf`
 
 Usage is simple:
 
-`sankypf escaped\ path\ to/file.txt`
+`sanky-pf escaped\ path\ to/file.txt`

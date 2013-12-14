@@ -1,7 +1,7 @@
 require File.expand_path('../lib/sanky/pathfinder/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name                  = "sankypf"
+  s.name                  = "sanky-pf"
   s.summary               = "Open files on the sanky server"
   s.description           = File.read("./README.md")
   s.version               = Sanky::PathFinder::VERSION
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.platform              = Gem::Platform::RUBY
   s.required_ruby_version = ">=1.9"
   s.files                 = Dir['**/**']
-  s.executables           = [ "sankypf" ]
+  s.executables           = [ "sanky-pf" ]
   s.test_files            = Dir['test/test*.rb']
   s.has_rdoc              = false
 
