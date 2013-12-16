@@ -15,7 +15,7 @@ module Sanky
         @arguments.map! do |original|
           # subsitute windows backslashes for forwardslashes and strip whitespace
           original = original.strip.gsub(/\\/, "/")
-          original.sub!(/L:/, "/Volumes/SankNet Drive")
+          original.sub!(/L:/, "/Volumes/SankyNet Drive")
           original.sub!(/Z:/, "/Volumes/Sanky Direct Drive/Sanky Shared")
           original.sub!(/Z:/, "/Volumes/Sanky Direct Drive/Sanky Shared")
           original.sub!(/smb:\/\/sankycomserver/, "/Volumes")
