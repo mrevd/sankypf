@@ -14,7 +14,7 @@ module Sanky
 
       def parse(argv)
         OptionParser.new do |opts|
-          opts.banner = "Usage: sankypf file [ file ] ..."
+          opts.banner = "Usage: sanky-pf file [ file ] ..."
 
           opts.on("-h", "--help", "Show this message") do
             puts opts
