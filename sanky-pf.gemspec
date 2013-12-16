@@ -15,6 +15,6 @@ Gem::Specification.new do |s|
   s.test_files            = Dir['test/test*.rb']
   s.has_rdoc              = false
 
-  s.add_runtime_dependency 'colorize'
+  s.add_runtime_dependency     'colorize'
   s.add_development_dependency 'shoulda'
 end
